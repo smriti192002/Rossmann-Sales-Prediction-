@@ -89,9 +89,12 @@ Looking over all the stores it seems like for most of the stores promo2 is actua
 ![download (47)](https://user-images.githubusercontent.com/88886118/216102164-d068b985-5e5b-4e77-901d-23f22d4908eb.png)
 For assortment level extra, both average no. of customers and average sales is comparatively high
 
-**Models**
+**Models Performace**
 
 | Model Name	| Accuracy	| 
 | ----------- | ----------- |   
 | Linear Regression	| 0.69  |
 | Descion Tree| 0.83        |
+| Random Forest|  0.88|
+| Gradient Boost Regression| 0.86|
+|XGBoost| 0.89|
