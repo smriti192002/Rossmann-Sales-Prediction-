@@ -50,5 +50,3 @@ The exploratory data analysis proposes to analyze how the variables map the phen
 - Gain business experience.
 - Validate business hypotheses and generate insights.
 - Identify variables that are important to the model.
-
-  
