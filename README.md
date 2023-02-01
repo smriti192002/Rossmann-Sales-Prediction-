@@ -71,3 +71,10 @@ We can simply see that where on other weekdays near to 1000 or above stores are 
 
 Most of the stores are closed on sundays thats why the rare ones that are operating on sunday are getting surge in sales on sundays
 And the same reason as most of stores are closed on sundays then on next day of opening that is on monday they are getting bit higher sales
+
+
+![download (44)](https://user-images.githubusercontent.com/88886118/216100485-4fc78f51-c1e4-4fb9-ac9e-1378b785af85.png)
+
+Promos are surely working in favour of increasing sales of stores. On a day Stores showing promos on an average makes a sale of approx 2000 dollars greater than the days they don't shows a promo
+We can see for sales with promo, peak of distribution lies somewhere around 8500$ and sales without promo peak of distribution lies somewhere around 7500 which means maximum sales with promo is around 8500 and maximum sales without promo is around 7500 for stores
+Lets randomly get 5-10 stores and see the difference in there sales on the days when they are showing promos and when they are not
