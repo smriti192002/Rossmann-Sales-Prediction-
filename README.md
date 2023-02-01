@@ -81,5 +81,11 @@ Lets randomly get 5-10 stores and see the difference in there sales on the days 
 
 
 ![download (45)](https://user-images.githubusercontent.com/88886118/216101513-2710acc3-c2ee-445d-9c62-a07aea362903.png)
+From above we can see, average sales of stores with promo is higher than that of without promo. Promo is creating higher end differences in sales
 
-From above block we can see, average sales of stores with promo is higher than that of without promo. Promo is creating higher end differences in sales
+![download (46)](https://user-images.githubusercontent.com/88886118/216101854-5a39481c-afaf-4e46-a24f-180df0522166.png)
+Looking over all the stores it seems like for most of the stores promo2 is actually working as a average sales of these stores after participating in promo2 is higher than before participating.
+
+![download (47)](https://user-images.githubusercontent.com/88886118/216102164-d068b985-5e5b-4e77-901d-23f22d4908eb.png)
+For assortment level extra, both average no. of customers and average sales is comparatively high
+
