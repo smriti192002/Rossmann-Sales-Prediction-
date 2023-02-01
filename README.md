@@ -29,4 +29,8 @@ As this is a problem originating from a Kaggle competition, the data are availab
 
 ## DATA COLLECT <p id="data_collect"></p>
 
-The data used in this project are available through the Kaggle platform, and can be find [here](https://www.kaggle.com/c/rossmann-store-sales/data). But, if it were a real company environment, this data would be collected through database queries, and other sources of information
+The data used in this project are available through the Kaggle platform, and can be find [here](https://www.kaggle.com/c/rossmann-store-sales/data). But, if it were a real company environment, this data would be collected through database queries, and other sources of information.
+
+## DATA CLEANING <p id="data_cleaning"></p>
+
+Cleaning the dataset downloaded from the previous step, performing operations such as: Deleting Duplicates , Treating missing values, correcting the data type of the feature
