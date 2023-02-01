@@ -91,6 +91,6 @@ For assortment level extra, both average no. of customers and average sales is c
 
 **Models**
 
-| Model Name	| Accuracy	| MAPE	| RMSE |
-| ----------- | ----------- |  ----------- |  ----------- |
-| Linear Regression	| 1867.089774 |	0.292694	| 2671.049215
+| Model Name	| Accuracy	| 
+| ----------- | ----------- |   
+| Linear Regression	| 1867.089774 |
