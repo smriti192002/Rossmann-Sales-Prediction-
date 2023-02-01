@@ -56,3 +56,18 @@ The exploratory data analysis proposes to analyze how the variables map the phen
 Relation seems to be linear between customers and sales but seems to have high variance
 Also Graph helps us conclude that although there are some stores that have a same customer visit still some have higher sales and some have lower sales
 It can be dependable on many factors like competitors distance, promo,etc
+
+![download (42)](https://user-images.githubusercontent.com/88886118/216099649-b29be760-95ae-4da2-9f16-b29a8775e313.png)
+
+In Regards to month sales and customers graph we can depict that number of customers visiting store per day is almost similar every month and for sales per day there is a quite surge in daily sales in 12th month which is also a festive month(christmas and New Year) and week of the year graphs gives a prove of that as well (you can see a surge in 51st week)
+
+In Regards to Date of month sales and customers graph there is no any such great depiction but still customers visiting store and sales is higher in starting and ending of months
+
+In Regards to day of week sales and customers graph we can see surge in sales on Monday and Sunday and also number of customers visiting store is higher on sundays and almost similar for other weekdays
+
+![download (43)](https://user-images.githubusercontent.com/88886118/216099890-15d5a125-dcb8-4302-bdc4-f9fb5fc5aa04.png)
+
+We can simply see that where on other weekdays near to 1000 or above stores are opened and operating whereas on sundays on an average less than 50 stores are opened and thus resulting in increasing sale value for store on that day
+
+Most of the stores are closed on sundays thats why the rare ones that are operating on sunday are getting surge in sales on sundays
+And the same reason as most of stores are closed on sundays then on next day of opening that is on monday they are getting bit higher sales
