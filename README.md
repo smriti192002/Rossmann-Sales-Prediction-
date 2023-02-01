@@ -91,7 +91,7 @@ For assortment level extra, both average no. of customers and average sales is c
 
 **Models Performace**
 
-| Model Name	| Accuracy	| 
+| Model Name	|R2 Scores	| 
 | ----------- | ----------- |   
 | Linear Regression	| 0.69  |
 | Descion Tree| 0.83        |
