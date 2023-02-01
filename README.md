@@ -89,3 +89,8 @@ Looking over all the stores it seems like for most of the stores promo2 is actua
 ![download (47)](https://user-images.githubusercontent.com/88886118/216102164-d068b985-5e5b-4e77-901d-23f22d4908eb.png)
 For assortment level extra, both average no. of customers and average sales is comparatively high
 
+**Linear Regression Model**
+
+| Model Name	| MAE	| MAPE	| RMSE |
+| ----------- | ----------- |  ----------- |  ----------- |
+| Linear Regression	| 1867.089774 |	0.292694	| 2671.049215
