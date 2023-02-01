@@ -10,6 +10,7 @@
   - <a href="#data_collect">Data Collect</a>
   - <a href="#data_cleaning">Data Cleaning</a>
     - <a href="#data_description">Data Description</a>
+- <a href="#data_exploration">Data Exploration</a>
  
 ## 📝 Problem Statement <p id="bquestions"></p>
 
@@ -41,4 +42,13 @@ Cleaning the dataset downloaded from the previous step, performing operations su
   - Check for the existence of missing values, and if so, use an approach to fill in these values.
     - *In this step i found some columns with missing values, and filled them thinking about the business.*
   - Standardize the types of variables.
+
+## EXPLORATORY DATA ANALYSIS <p id="data_exploration"></p>
+
+The exploratory data analysis proposes to analyze how the variables map the phenomenon we want to model, and what is the strength of this impact. Proposed basically for 3 objectives:
+
+- Gain business experience.
+- Validate business hypotheses and generate insights.
+- Identify variables that are important to the model.
+
   
