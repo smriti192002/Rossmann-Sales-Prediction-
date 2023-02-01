@@ -42,5 +42,4 @@ Cleaning the dataset downloaded from the previous step, performing operations su
   - Check for the existence of missing values, and if so, use an approach to fill in these values.
     - *In this step i found some columns with missing values, and filled them thinking about the business.*
   - Standardize the types of variables.
-  - Perform a descriptive analysis of the data to gain business knowledge and be able to identify any inconsistency in the information.
-    - *This descriptive analysis consisted of creating a table (for numerical variables) containing the basic statistical metrics of the data set, and building a boxplot (for categorical variables) to observe its behavior.*
+  
