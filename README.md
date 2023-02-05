@@ -19,7 +19,7 @@
 Rossmann operates over 3,000 drug stores in 7 European countries.  Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, 
 You are provided with historical sales data for 1,115 Rossmann stores. The task is to forecast the "Sales" column . Note that some stores in the dataset were temporarily closed for refurbishment.
 
-## How it might be helpful for business? <p id="business_impact"></p>
+## 🤔 How it might be helpful for business? <p id="business_impact"></p>
 
 Many of these managers contacted me for consult the data to make the prediction for their stores. So, I went looking for the real stakeholder to understand the main reason for this sales forecast. Talking to managers, they told me that was a request from the CFO at a meeting with all managers.
 
@@ -34,7 +34,7 @@ As this is a problem originating from a Kaggle competition, the data are availab
 
 The data used in this project are available through the Kaggle platform, and can be find [here](https://www.kaggle.com/c/rossmann-store-sales/data). But, if it were a real company environment, this data would be collected through database queries, and other sources of information.
 
-## DATA CLEANING <p id="data_cleaning"></p>
+## 🧹 DATA CLEANING <p id="data_cleaning"></p>
 
 Cleaning the dataset downloaded from the previous step, performing operations such as:
 
@@ -46,7 +46,7 @@ Cleaning the dataset downloaded from the previous step, performing operations su
   - Standardize the types of variables.
   
 
-## EXPLORATORY DATA ANALYSIS <p id="data_exploration"></p>
+## 🔎  EXPLORATORY DATA ANALYSIS <p id="data_exploration"></p>
 
 The exploratory data analysis proposes to analyze how the variables map the phenomenon we want to model, and what is the strength of this impact. Proposed basically for 3 objectives:
 
@@ -121,7 +121,7 @@ Lets randomly get 5-10 stores and see the difference in there sales on the days 
 
 It is this project stage that involves the part that most data scientists like to work on, the use of machine learning algorithms. All the previous steps were designed to maximize the algorithms efficiency
 
-## Machine Learning Modelling <p id="machine_learning_modelling"></p>
+## ⌛ Machine Learning Modelling <p id="machine_learning_modelling"></p>
 
 **Linear Regression**
 
