@@ -160,4 +160,4 @@ It is this project stage that involves the part that most data scientists like t
 
 From the visual analysis of various performance metrics of different models, we can see although gradient boost and xtreme gradient boost are giving us a great performance but at the cost of execution time.
 
-So if there is no kind of incremental modelling and we can just train the model once and store it then we can go with Xtreme gradient boost
+So if there is no kind of incremental modelling and we can just train the model once and store it then we can go with Xtreme gradient boost. 
