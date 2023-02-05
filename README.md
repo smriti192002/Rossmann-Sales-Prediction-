@@ -51,7 +51,9 @@ The exploratory data analysis proposes to analyze how the variables map the phen
 - Validate business hypotheses and generate insights.
 - Identify variables that are important to the model.
 
-![download (41)](https://user-images.githubusercontent.com/88886118/216097495-be0769d6-7087-4a5b-ad7b-410bf011f3cc.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216804562-8692ff7d-2d5f-43f6-b68f-3988a551db3e.png">
+</p> 
 
 Relation seems to be linear between customers and sales but seems to have high variance
 Also Graph helps us conclude that although there are some stores that have a same customer visit still some have higher sales and some have lower sales
