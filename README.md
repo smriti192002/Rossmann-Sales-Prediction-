@@ -12,7 +12,8 @@
     - <a href="#data_description">Data Description</a>
 - <a href="#data_exploration">Data Exploration</a>
 - <a href="#machine_learning">Machine Learning Algorithms</a>
- 
+- <a href="#final_model_selection">Final Modeling Selection</a>
+
 ## 📝 Problem Statement <p id="bquestions"></p>
 
 Rossmann operates over 3,000 drug stores in 7 European countries.  Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, 
@@ -151,3 +152,12 @@ It is this project stage that involves the part that most data scientists like t
 | Model Name	| RMSE | MAE | RMSPE | R2_score | Adjusted R2_score |
 | ----------- | ----------- |  ----------- |  ----------- |-----------|-----------|
 | XGBoost Regressor | 1059.17 | 752.12|  0.174|  0.89| 0.89  |
+
+## 📊 FINAL MODEL SELECTION <p id="final_model_selection"></p>
+
+![Screenshot 2023-02-05 at 1 10 01 PM](https://user-images.githubusercontent.com/88886118/216807437-04170d03-1737-4a1d-b368-39530b95aa5c.png)
+![Screenshot 2023-02-05 at 1 10 15 PM](https://user-images.githubusercontent.com/88886118/216807450-ded2f340-d5dc-45d8-b73c-5ad00e6932f6.png)
+
+From the visual analysis of various performance metrics of different models, we can see although gradient boost and xtreme gradient boost are giving us a great performance but at the cost of execution time.
+
+So if there is no kind of incremental modelling and we can just train the model once and store it then we can go with Xtreme gradient boost
