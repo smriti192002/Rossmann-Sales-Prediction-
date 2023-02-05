@@ -11,6 +11,7 @@
   - <a href="#data_cleaning">Data Cleaning</a>
     - <a href="#data_description">Data Description</a>
 - <a href="#data_exploration">Data Exploration</a>
+- <a href="#machine_learning">Machine Learning Algorithms</a>
  
 ## 📝 Problem Statement <p id="bquestions"></p>
 
@@ -42,6 +43,7 @@ Cleaning the dataset downloaded from the previous step, performing operations su
   - Check for the existence of missing values, and if so, use an approach to fill in these values.
     - *In this step i found some columns with missing values, and filled them thinking about the business.*
   - Standardize the types of variables.
+  
 
 ## EXPLORATORY DATA ANALYSIS <p id="data_exploration"></p>
 
@@ -51,52 +53,101 @@ The exploratory data analysis proposes to analyze how the variables map the phen
 - Validate business hypotheses and generate insights.
 - Identify variables that are important to the model.
 
+
 <p align="center">
-<img src="https://user-images.githubusercontent.com/88886118/216804562-8692ff7d-2d5f-43f6-b68f-3988a551db3e.png">
+<img src="https://user-images.githubusercontent.com/88886118/216805194-0a1c0b37-2038-4f50-ab68-4936478b706f.png">
 </p> 
 
-Relation seems to be linear between customers and sales but seems to have high variance
-Also Graph helps us conclude that although there are some stores that have a same customer visit still some have higher sales and some have lower sales
+
+- Relation seems to be linear between customers and sales but seems to have high variance
+- Also Graph helps us conclude that although there are some stores that have a same customer visit still some have higher sales and some have lower sales
 It can be dependable on many factors like competitors distance, promo,etc
 
-![download (42)](https://user-images.githubusercontent.com/88886118/216099649-b29be760-95ae-4da2-9f16-b29a8775e313.png)
 
-In Regards to month sales and customers graph we can depict that number of customers visiting store per day is almost similar every month and for sales per day there is a quite surge in daily sales in 12th month which is also a festive month(christmas and New Year) and week of the year graphs gives a prove of that as well (you can see a surge in 51st week)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216804684-595e96f2-c78b-445f-954e-577894a123c4.png">
+</p> 
 
-In Regards to Date of month sales and customers graph there is no any such great depiction but still customers visiting store and sales is higher in starting and ending of months
+- In Regards to month sales and customers graph we can depict that number of customers visiting store per day is almost similar every month and for sales per day there is a quite surge in daily sales in 12th month which is also a festive month(christmas and New Year) and week of the year graphs gives a prove of that as well (you can see a surge in 51st week)
 
-In Regards to day of week sales and customers graph we can see surge in sales on Monday and Sunday and also number of customers visiting store is higher on sundays and almost similar for other weekdays
+- In Regards to Date of month sales and customers graph there is no any such great depiction but still customers visiting store and sales is higher in starting and ending of months
 
-![download (43)](https://user-images.githubusercontent.com/88886118/216099890-15d5a125-dcb8-4302-bdc4-f9fb5fc5aa04.png)
+- In Regards to day of week sales and customers graph we can see surge in sales on Monday and Sunday and also number of customers visiting store is higher on sundays and almost similar for other weekdays
 
-We can simply see that where on other weekdays near to 1000 or above stores are opened and operating whereas on sundays on an average less than 50 stores are opened and thus resulting in increasing sale value for store on that day
 
-Most of the stores are closed on sundays thats why the rare ones that are operating on sunday are getting surge in sales on sundays
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216805259-91c32a9b-549d-4d4d-b96f-7ffb8f2e2263.png" width="700" height="400"/>
+</p> 
+
+- We can simply see that where on other weekdays near to 1000 or above stores are opened and operating whereas on sundays on an average less than 50 stores are opened and thus resulting in increasing sale value for store on that day
+
+- Most of the stores are closed on sundays thats why the rare ones that are operating on sunday are getting surge in sales on sundays
 And the same reason as most of stores are closed on sundays then on next day of opening that is on monday they are getting bit higher sales
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216805530-e16de7d7-85e6-434f-8f87-8c6c51a9d73f.png">
+</p> 
 
-![download (44)](https://user-images.githubusercontent.com/88886118/216100485-4fc78f51-c1e4-4fb9-ac9e-1378b785af85.png)
 
-Promos are surely working in favour of increasing sales of stores. On a day Stores showing promos on an average makes a sale of approx 2000 dollars greater than the days they don't shows a promo
+
+- Promos are surely working in favour of increasing sales of stores. On a day Stores showing promos on an average makes a sale of approx 2000 dollars greater than the days they don't shows a promo
 We can see for sales with promo, peak of distribution lies somewhere around 8500$ and sales without promo peak of distribution lies somewhere around 7500 which means maximum sales with promo is around 8500 and maximum sales without promo is around 7500 for stores
 Lets randomly get 5-10 stores and see the difference in there sales on the days when they are showing promos and when they are not
 
 
-![download (45)](https://user-images.githubusercontent.com/88886118/216101513-2710acc3-c2ee-445d-9c62-a07aea362903.png)
-From above we can see, average sales of stores with promo is higher than that of without promo. Promo is creating higher end differences in sales
 
-![download (46)](https://user-images.githubusercontent.com/88886118/216101854-5a39481c-afaf-4e46-a24f-180df0522166.png)
-Looking over all the stores it seems like for most of the stores promo2 is actually working as a average sales of these stores after participating in promo2 is higher than before participating.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216805803-b3ab7d5c-1859-4b2b-aed1-36e6c68096fa.png">
+</p> 
 
-![download (47)](https://user-images.githubusercontent.com/88886118/216102164-d068b985-5e5b-4e77-901d-23f22d4908eb.png)
-For assortment level extra, both average no. of customers and average sales is comparatively high
 
-**Models Performace**
+- Looking over all the stores it seems like for most of the stores promo2 is actually working as a average sales of these stores after participating in promo2 is higher than before participating.
 
-| Model Name	|R2 Scores	| 
-| ----------- | ----------- |   
-| Linear Regression	| 0.69  |
-| Descion Tree| 0.83        |
-| Random Forest|  0.88|
-| Gradient Boost Regression| 0.86|
-|XGBoost| 0.89|
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216806384-dea0fa2e-7570-47d3-97ad-75e32da5c3bb.png">
+</p>
+
+- One observing thing is that only storetype B is using Extar assortment startegies and that could be the potential reason for storetype B having greater sales as from the below analysis we can see that Extra assortment has higher sales.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/88886118/216806282-f587fc1f-033e-4fe2-b4dd-d34c177f777e.png">
+</p> 
+
+- There are few exceptions but in general we can see that most of the time sales is decreased a bit after competition is established. This proves that competition and its distance is affecting the sales of rossman stores
+
+
+## MACHINE LEARNING ALGORITHMS <p id="machine_learning"></p>
+
+It is this project stage that involves the part that most data scientists like to work on, the use of machine learning algorithms. All the previous steps were designed to maximize the algorithms efficiency
+
+## Machine Learning Modelling <p id="machine_learning_modelling"></p>
+
+**Linear Regression**
+
+| Model Name	| RMSE | MAE | RMSPE | R2_score | Adjusted R2_score |
+| ----------- | ----------- |  ----------- |  ----------- |-----------|-----------|
+| Linear Regression |1768.0 | 1197.03 | 0.274 | 0.69 | 0.69 |
+
+**Decision Tree**
+
+| Model Name	| RMSE | MAE | RMSPE | R2_score | Adjusted R2_score |
+| ----------- | ----------- |  ----------- |  ----------- |-----------|-----------|
+| Decision Tree |1321.32 | 915.21 | 0.206| 0.83 | 0.83  |
+
+**Random Forest**
+
+| Model Name	| RMSE | MAE | RMSPE | R2_score | Adjusted R2_score |
+| ----------- | ----------- |  ----------- |  ----------- |-----------|-----------|
+| Random Forest | 1097.37 |761.01 | 0.168| 0.88| 0.88  |
+
+**Gradient Boost Regression**
+
+| Model Name	| RMSE | MAE | RMSPE | R2_score | Adjusted R2_score |
+| ----------- | ----------- |  ----------- |  ----------- |-----------|-----------|
+| Gradient Boost Regression | 1163.47 | 829.25| 0.193| 0.87| 0.87  |
+
+**XGBoost**
+
+| Model Name	| RMSE | MAE | RMSPE | R2_score | Adjusted R2_score |
+| ----------- | ----------- |  ----------- |  ----------- |-----------|-----------|
+| XGBoost Regressor | 1059.17 | 752.12|  0.174|  0.89| 0.89  |
